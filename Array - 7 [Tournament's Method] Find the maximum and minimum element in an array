@@ -1,4 +1,12 @@
+TOURNAMENT'S METHOD
+-------------------
+* In tournament's method the given array is divided into two halves.
+* Then, we will find the maximum and minimum of both the parts.
+* Compare the maximum and minimum of both the halves and display the result.
 
+
+CODE
+----
 #include <iostream>
 using namespace std;
 int main() {
