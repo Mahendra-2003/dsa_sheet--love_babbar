@@ -1,23 +1,11 @@
-//{ Driver Code Starts
-//Initial function template for C++
-
 #include<bits/stdc++.h>
 using namespace std;
-
-// } Driver Code Ends
-//User function template for C++
-
 class Solution{
     public:
     int kthSmallest(int arr[],int l,int n,int k){
             sort(arr,arr+n+1);
-            return arr[k-1];
-    }
-    
+            return arr[k-1];}  
 };
-
-//{ Driver Code Starts.
- 
 int main()
 {
     int test_case;
@@ -38,4 +26,3 @@ int main()
     }
     return 0;
 }
-// } Driver Code Ends
